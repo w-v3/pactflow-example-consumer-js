@@ -13,6 +13,7 @@ export class API {
       url = url.substr(0, url.length - 1);
     }
     this.url = url;
+    console.log(`url set ${this.url}`)
   }
 
   withPath(path) {
